@@ -679,9 +679,6 @@ body {
 		left: 88%;
 	}
 
-
-}
-
 @media screen and (max-width: 600px) {
 	.section1 {
 	margin: 2vh 2vh;
@@ -756,10 +753,16 @@ body {
 		font-size: 20px;
 	}
 	.circulo:nth-child(4){
-	left: 80%;
+	left: 70%;
 	}
 	.circulo:nth-child(6){
-		left: 80%;
+		left: 70%;
+	}
+	.circulo:nth-child(7){
+	left: 79%;
+	}
+	.circulo:nth-child(8){
+	left: 86%;
 	}
 
 }
