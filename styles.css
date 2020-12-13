@@ -386,6 +386,7 @@ body {
 	color: #fff;
 	margin: 5vh 2vh 3vh 2vh;
 	font-size: 30px;
+	text-align: center;
 }
 
 .presale .sell .option h2{
@@ -401,13 +402,6 @@ body {
 	text-align: center;
 	font-size: 50px;
 }
-.presale .sell .option h2 span{
-	font-size: 32px;
-	position: relative;
-	left: -3% !important;
-	top: -24% !important;
-}
-
 .presale .sell .option p{
 	color: #fff;
 	font-size: 18px;
