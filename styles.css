@@ -583,6 +583,50 @@ body {
 	top: -40%;
 
 }
+.app_network {
+	display: none;
+	position: fixed;
+	background: rgba(0,0,0,0.5);
+	height: 100vh;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+.network {
+	border-radius: 5px;
+	background: #fff;
+	width: 600px;
+	height: 620px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+
+.network img{
+	width: 550px;
+	margin: 20px;
+}
+
+.network h2, .network h3 {
+    font-size: 28px;
+    text-align: center;
+    margin: 2vh auto;
+    color: #000;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(130deg, rgba(200,200,200,.5) 0%, rgba(0, 0, 4, 1) 100%);
+        background-clip: border-box;
+    background-clip: border-box;
+}
+
+.network h3 {
+	font-size: 24px;
+}
 
 @media screen and (max-width: 1280px){ 
 	#home img{
@@ -622,6 +666,8 @@ body {
 	}
 
 }
+
+
 @media screen and (max-width: 940px){
 	.link {
 		position: fixed;
@@ -698,6 +744,25 @@ body {
 	}
 	.circulo:nth-child(6){
 		left: 88%;
+	}
+
+	.network {
+		width: 490px;
+		height: 520px;
+	}
+
+
+	.network img{
+		width: 450px;
+		margin: 20px;
+	}
+
+	.network h2, .network h3 {
+	    font-size: 24px;
+	    margin: 2vh auto;
+	}
+	.network h3 {
+	font-size: 20px;
 	}
 
 @media screen and (max-width: 600px) {
@@ -799,6 +864,27 @@ body {
 		top: 81%;
 		left: 60%;
 	}
+
+	.network {
+		left: -6px;
+		width: 350px;
+		height: 400px;
+	}
+
+
+	.network img{
+		width: 320px;
+		margin: 20px;
+	}
+
+	.network h2, .network h3 {
+	    font-size: 18px;
+	    margin: 1vh auto;
+	}
+	.network h3 {
+	font-size: 15px;
+	}
+
 	@keyframes animaciones{
 	0% {
 		transform: translateX(0);
@@ -820,7 +906,7 @@ body {
 
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 338px) {
 	#view {
 	font-size: 13.5px;
 	border-radius: 5px;
@@ -831,5 +917,24 @@ body {
 	border-radius: 5px;
 	font-size: 13.5px;
 	padding: 9px;
+	}
+	.network {
+		left: 0;
+		width: 250px;
+		height: 280px;
+	}
+
+
+	.network img{
+		width: 220px;
+		margin: 15px;
+	}
+
+	.network h2, .network h3 {
+	    font-size: 16px;
+	    margin: 6px auto;
+	}
+	.network h3 {
+	font-size: 13px;
 	}
 }
