@@ -3,6 +3,19 @@ const menuhambur = document.getElementsByClassName("menu")[0];
 const hamburgesa = document.getElementById("menu");
 let abierto = false;
 
+const close = document.getElementsByClassName("app_network")[0];
+const abrir = document.querySelectorAll(".app")[0];
+
+abrir.addEventListener("click", function(e){
+	e.preventDefault();
+	close.style.display = "inline-block";
+});
+
+close.addEventListener("click", function(e){
+	if (e.target === close) {
+		close.style.display = "none";
+	}
+});
 
 const togglemenu = () => {
 	link.classList.toggle("link2");
