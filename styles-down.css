@@ -1,0 +1,165 @@
+.down {
+	font-family: "Do Hyeon";
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.2);
+	display: none;
+	flex-direction: column;
+	top: 0;
+}
+
+.countdown {
+	border: 3px solid #52D3D1;
+	border-radius: 10px;
+	width: 850px;
+	background: rgba(0, 0, 0, 0.4);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 20vh auto;
+	
+}
+
+#clock {
+	border-radius: 10px;
+	width: 60%;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	margin:  10px 110px;
+	grid-gap: 30px;
+}
+
+#clock div {
+	width: 140px;
+	text-align: center;
+	height: 140px;
+	border: 2px solid #52D3D1;
+	background: rgba(0,0,0,0.7);
+	color: #c647fe;
+	border-radius: 5px;
+	margin-bottom: 2vh;
+	
+}
+.countdown div > h2 {
+	margin: 5vh 0 10px 0;
+	font-size: 42px;
+	color: #fff;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(130deg,  #fff 0%, #b3b0b0 100%);
+    background-clip: border-box;
+}
+
+#clock div h2 {
+	font-size: 58px;
+	margin: 10px auto;
+}
+
+#clock div h4{
+	font-size: 28px;
+	   -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(130deg,  #c647fe 0%, #b3b0b0 100%);
+    background-clip: border-box;
+}
+
+
+@media screen and (max-width: 940px){
+	.countdown {
+		width: 650px;
+		margin: 26vh auto;
+	}
+
+	#clock {
+		margin:  10px 86px;
+	}
+
+	#clock div {
+		width: 100px;
+		height: 100px;
+		border-radius: 5px;
+		margin-bottom: 2vh;
+		
+	}
+	.countdown div > h2 {
+		margin: 5vh 0 10px 0;
+		font-size: 32px;
+	}
+
+	#clock div h2 {
+		font-size: 50px;
+		margin: 1px auto;
+	}
+
+	#clock div h4{
+		font-size: 20px;
+	}
+}
+
+
+
+@media screen and (max-width: 640px){
+	.countdown {
+		width: 400px;
+		margin: 26vh auto;
+	}
+
+	#clock {
+		margin:  10px 24px;
+	}
+
+	#clock div {
+		width: 80px;
+		height: 80px;
+		border-radius: 5px;
+		margin-bottom: 2vh;
+		
+	}
+	.countdown div > h2 {
+		margin: 4vh 0 10px 0;
+		font-size: 28px;
+	}
+
+	#clock div h2 {
+		font-size: 40px;
+		margin: 1px auto;
+	}
+
+	#clock div h4{
+		font-size: 18px;
+	}
+}
+
+
+@media screen and (max-width: 399px){
+	.countdown {
+		width: 300px;
+		margin: 26vh auto;
+	}
+
+	#clock {
+		margin:  10px 6px;
+	}
+
+	#clock div {
+		width: 60px;
+		height: 60px;
+		border-radius: 5px;
+		margin-bottom: 2vh;
+		
+	}
+	.countdown div > h2 {
+		margin: 4vh 0 10px 0;
+		font-size: 22px;
+	}
+
+	#clock div h2 {
+		font-size: 30px;
+		margin: 1px auto;
+	}
+
+	#clock div h4{
+		font-size: 14px;
+	}
+}
