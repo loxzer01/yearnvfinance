@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="styles.css">
 	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 	<link rel="icon" type="image/png" href="img/logo.png">
+	<link rel="stylesheet" href="styles-down.css">
 </head>
 <body>
 
@@ -43,7 +44,7 @@
 				<div class="div">
 					<h1>YEARN FIVE</h1>
 					<div class="button">
-						<a href="" class="token">BUY TOKEN</a>
+						<a href="#" class="token count">BUY TOKEN</a>
 						<a href="" id="view">View on Etherscan</a>
 					</div>
 					<div id="contact">
@@ -56,6 +57,11 @@
 			</div>
 		</section>
 	</header>
+	<section class="down">
+		<div class="countdown">
+		<div><h2>Time remaining to list in uniswap</h2></div>
+		<div id="clock"></div></div>
+	</section>
 	<section class="app_network">
 		<div class="network">
 			<h2>APP in development</h2>
@@ -138,7 +144,7 @@
 		</div>
 		<a href="#home"><i class='bx bxs-chevron-up'></i></a>
 	</footer>
-
+	<script src="countdown.js"></script>
 	<script src="main.js"></script>
 </body>
 </html>
